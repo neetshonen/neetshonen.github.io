@@ -1,0 +1,21 @@
+<div class="header" ><!--Header-->
+  <div class="header-container">
+      <div class="header-logo" ><!--Logo-->
+        Panos Petridisoglou
+      </div>
+      <div ><!--Menu-->
+        <a class="header-nav" [routerLink]="['/about']" routerLinkActive="is-active">About</a>
+        <a class="header-nav" [routerLink]="['/blog']" routerLinkActive="is-active">Blog</a>
+        <a class="header-nav" [routerLink]="['/projects']" routerLinkActive="is-active">Projects</a>
+      </div>
+  </div>
+</div>
+<br>
+<br>
+<router-outlet>
+
+</router-outlet>
+
+<div class="footer-copyrights"><!--Footer-->
+  Copyrights 2021© <br>Template made with 🔮 by Panos Petridisoglou
+</div>
